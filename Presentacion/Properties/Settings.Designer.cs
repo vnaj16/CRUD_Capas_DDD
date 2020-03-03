@@ -22,15 +22,5 @@ namespace Presentacion.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.\\VNAJ_DB01;Initial Catalog=MyCompany;Integrated Security=True")]
-        public string Default {
-            get {
-                return ((string)(this["Default"]));
-            }
-        }
     }
 }
